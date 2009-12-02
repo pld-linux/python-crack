@@ -1,7 +1,7 @@
 Summary:	Python bindings for cracklib
 Name:		python-crack
 Version:	0.5.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://download.savannah.gnu.org/releases/python-crack/%{name}-%{version}.tar.gz
@@ -22,7 +22,7 @@ cracklib toolkit, hence the name.
 
 %build
 %configure \
-DEFAULT_DICTPATH=%{_datadir}/dict/words
+	DEFAULT_DICTPATH=%{_datadir}/dict/cracklib_dict
 %{__make}
 
 %install
