@@ -9,6 +9,8 @@ Source0:	http://download.savannah.gnu.org/releases/python-crack/%{name}-%{versio
 URL:		http://www.nongnu.org/python-crack/
 BuildRequires:	cracklib-devel
 BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
