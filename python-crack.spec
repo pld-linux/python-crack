@@ -1,7 +1,7 @@
 Summary:	Python bindings for cracklib
 Name:		python-crack
 Version:	0.5.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		Libraries/Python
 Source0:	http://download.savannah.gnu.org/releases/python-crack/%{name}-%{version}.tar.gz
